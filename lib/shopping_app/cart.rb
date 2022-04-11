@@ -3,7 +3,7 @@ require_relative "ownable"
 
 class Cart
   include ItemManager
-  include ownable
+  include Ownable
 
   def initialize(owner)
     self.owner = owner
